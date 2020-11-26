@@ -1,0 +1,14 @@
+img{
+    height: 200px;
+}
+
+ @media only screen and (max-width:600px) {
+        #countries{
+            height: 200px;
+        }
+    }
+
+#mapid{
+    width: 700px;
+    height: 680px;
+}

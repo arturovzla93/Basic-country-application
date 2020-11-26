@@ -1,0 +1,26 @@
+.article img {
+    height: 160px;
+  }
+
+  .card {
+    margin: 1rem;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+  }
+  
+  .card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+  }
+
+  main {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns:repeat(autofit, minmax(300px, 2fr)); ;
+    grid-auto-rows:max-content;
+    grid-auto-flow: row dense; 
+  }
+
+
